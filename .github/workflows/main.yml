@@ -17,7 +17,7 @@ jobs:
     - name: Authenticate Ngrok
       run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
       env:
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+        NGROK_AUTH_TOKEN: ${{ '2jp6qPeq3IVU2pKBe4prDzji4vz_7ExRJBUuD11uCvy9M7b9i' }}
 
     - name: Enable Remote Desktop
       run: |
